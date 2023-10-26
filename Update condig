@@ -1,0 +1,36 @@
+{   "Version": "1.0",
+    "ReleaseNotes": "NOVOS MODOS DE CONEXÃO
+       🟢fluke
+       🔴 Claro
+       🔵TIM
+       🟣VIVO",
+    "UrlUpdate": "",
+    "Sms": "",
+    "EmailFeedback": "gabevpn.feedback@gmail.com",
+    "UrlContato": "https://t.me/GABE_VPN",
+    "UrlTermos": "t.me/termosdeusoGABEVPN",
+    "CheckUser": "true",
+    "UdpPort": "7300",
+    "Servers": [{
+        "Name": "VPS PREMIUM GABE VPN",
+        "TYPE": "premium",
+        "FLAG": "br.png",
+        "ServerIP": "VPS.gabevpncobranet.cloud",
+        "CheckUser": "http://20.206.145.151:5454/checkUser",
+        "ServerPort": "22",
+        "SSLPort": "443",
+        "USER": "",
+        "PASS": ""
+    }],
+    "Networks": [{
+      "Name": "TIM 1",
+      "FLAG": "tim",
+      "Payload": "ACL / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf]User-Agent: Mobile Safari/9 OPR/9 [lf][split][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.19.241.93",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+  ]
+}
