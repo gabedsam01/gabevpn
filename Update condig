@@ -1,4 +1,4 @@
-{   "Version": "1.0",
+{   "Version": "1.1",
     "ReleaseNotes": "NOVOS MODOS DE CONEXÃO
        🟢fluke
        🔴 Claro
@@ -32,5 +32,15 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
+    { 
+      "Name": "VIVO 1", 
+      "FLAG": "vivo", 
+      "Payload": "GET / HTTP/1.1[crlf]Host: dominio[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]", 
+      "SNI": "", 
+      "TlsIP": "", 
+      "ProxyIP": "104.17.70.206", 
+      "ProxyPort": "80", 
+      "Info": "Proxy"  
+   },
   ]
 }
