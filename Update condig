@@ -1,4 +1,4 @@
-{   "Version": "1.1.1",
+{   "Version": "1.1.1.1",
     "ReleaseNotes": "NOVOS MODOS DE CONEXÃO
        🟢fluke
        🔴 Claro
@@ -17,7 +17,7 @@
         "FLAG": "br.png",
         "ServerIP": "gabevpncobranet.cloud",
         "CheckUser": "http://20.206.145.151:5454/checkUser",
-        "ServerPort": "80",
+        "ServerPort": "22",
         "SSLPort": "443",
         "USER": "",
         "PASS": ""
