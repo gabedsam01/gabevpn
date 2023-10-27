@@ -1,5 +1,5 @@
 {
-  "Version": "1.1",
+  "Version": "1.2",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/gabedsam22/updateconfiggabevpn/main/Update%20condig",
   "Sms": "https://raw.githubusercontent.com/gabedsam22/updateconfiggabevpn/main/SMSGABEVPN",
@@ -26,55 +26,65 @@
     }  
   ],
   "Networks": [
-    {
-      "Name": "💙TIM [SSL 1]",
-      "FLAG": "tim",
-      "Payload": "ACL / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf]User-Agent: Mobile Safari/9 OPR/9 [lf][split][lf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.19.241.93",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "💚VIVO [SSL 1]",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.17.70.206",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "💚VIVO [SSL 2]",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: gabevpncobranet.cloud[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "vigia.vivo.com.br",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "❤️CLARO [SSL 1]",
-      "FLAG": "claro",
-      "Payload": "GET wss://No.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
-      "SNI": "No.descomplica.com.br",
-      "TlsIP": "No.descomplica.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "💛OI [SSL 1]",
-      "FLAG": "oi",
-      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "www.hbogo.com.br",
-      "TlsIP": "104.16.51.91",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    }
-  ]
+        {
+            "Name": "TIM NORMAL [01]🔵",
+            "FLAG": "tim",
+            "Payload": "ACL / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf]User-Agent: Mobile Safari/9 OPR/9 [lf][split][lf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "104.19.241.93",
+            "ProxyPort": "80",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "VIVO NOVA [0]🟣",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "104.16.51.111",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO NOVA [1]🟣",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "104.17.70.206",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO NOVA [2]🟣",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: gabevpncobranet.cloud[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "vigia.vivo.com.br",
+            "ProxyPort": "80",
+            "Info": "Direct"
+        },
+        {
+            "Name": "CLARO NORMAL [01]🔴",
+            "FLAG": "claro",
+            "Payload": "GET http://brunaclaro.com.br HTTP/1.0[crlf]Host: DOMINIO_AQUIhttp://brunaclaro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Atualizar [crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "",
+            "ProxyPort": "80",
+            "Info": "Direct"
+        },
+        {
+            "Name": "OI NOVA [01]🟠",
+            "FLAG": "oi",
+            "Payload": "GET sni://www.hbogo.com.br HTTP/1.1[crlf]Host: DOMINIO_AQUI[crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "www.hbogo.com.br",
+            "TlsIP": "www.hbogo.com.br",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        }
+    ]
 }
