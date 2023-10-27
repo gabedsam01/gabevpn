@@ -39,7 +39,7 @@
     {
       "Name": "💚VIVO [SSL 1]",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.17.70.206",
@@ -49,7 +49,7 @@
     {
       "Name": "💚VIVO [SSL 2]",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: gabevpncobranet.cloud[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: gabevpncobranet.cloud[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "vigia.vivo.com.br",
