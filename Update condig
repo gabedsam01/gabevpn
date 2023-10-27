@@ -1,4 +1,4 @@
-{   "Version": "1.1",
+{   "Version": "1.1.1",
     "ReleaseNotes": "NOVOS MODOS DE CONEXÃO
        🟢fluke
        🔴 Claro
@@ -17,7 +17,7 @@
         "FLAG": "br.png",
         "ServerIP": "gabevpncobranet.cloud",
         "CheckUser": "http://20.206.145.151:5454/checkUser",
-        "ServerPort": "22",
+        "ServerPort": "80",
         "SSLPort": "443",
         "USER": "",
         "PASS": ""
@@ -33,14 +33,24 @@
       "Info": "Proxy"
     },
     { 
-      "Name": "TIM 1",
-      "FLAG": "tim",
+      "Name": "VIVO 1",
+      "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]@HostRepository[crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.17.70.206",
       "ProxyPort": "80",
       "Info": "Proxy"
+   },
+   { 
+      "Name": "TIM 1",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]onnection: Keep-Alive[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "vigia.vivo.com.br",
+      "ProxyPort": "80",
+      "Info": "Direct"
    },
   ]
 }
