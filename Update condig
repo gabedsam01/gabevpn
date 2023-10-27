@@ -29,22 +29,32 @@
     {
       "Name": "💙TIM [SSL 1]",
       "FLAG": "tim",
-      "Payload": "GET wss://m.timbancavirtual.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "m.timbancavirtual.com.br",
-      "TlsIP": "104.16.133.83",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
+      "Payload": "ACL / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf]User-Agent: Mobile Safari/9 OPR/9 [lf][split][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.19.241.93",
+      "ProxyPort": "80",
+      "Info": "Proxy"
     },
     {
       "Name": "💚VIVO [SSL 1]",
       "FLAG": "vivo",
-      "Payload": "GET wss://cdnjs.cloudflare.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "cdnjs.cloudflare.com",
-      "TlsIP": "104.18.7.80",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.17.70.206",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "💚VIVO [SSL 2]",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: gabevpncobranet.cloud[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "vigia.vivo.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
     },
     {
       "Name": "❤️CLARO [SSL 1]",
