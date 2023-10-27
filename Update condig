@@ -1,4 +1,4 @@
-{   "Version": "2.0",
+{   "Version": "1.0",
     "ReleaseNotes": "NOVOS MODOS DE CONEXÃO",
     "UrlUpdate": "https://raw.githubusercontent.com/gabedsam22/updateconfiggabevpn/main/Update%20condig",
     "Sms": "https://raw.githubusercontent.com/gabedsam22/updateconfiggabevpn/main/SMSGABEVPN",
@@ -28,25 +28,5 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
-    { 
-      "Name": "VIVO 1",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]@HostRepository[crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.17.70.206",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-   },
-   { 
-      "Name": "VIVO 2",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]onnection: Keep-Alive[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "vigia.vivo.com.br",
-      "ProxyPort": "80",
-      "Info": "Direct"
-   },
   ]
 }
