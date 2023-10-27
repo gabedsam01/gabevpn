@@ -1,9 +1,5 @@
 {   "Version": "1.2",
-    "ReleaseNotes": "NOVOS MODOS DE CONEXÃO
-       🟢fluke
-       🔴 Claro
-       🔵TIM
-       🟣VIVO",
+    "ReleaseNotes": "NOVOS MODOS DE CONEXÃO",
     "UrlUpdate": "https://raw.githubusercontent.com/gabedsam22/updateconfiggabevpn/main/Update%20condig",
     "Sms": "https://raw.githubusercontent.com/gabedsam22/updateconfiggabevpn/main/SMSGABEVPN",
     "EmailFeedback": "gabevpn.feedback@gmail.com",
